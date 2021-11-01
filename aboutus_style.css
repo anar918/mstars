@@ -1,0 +1,152 @@
+/* main */
+
+.container{
+    width: 75%;
+}
+.col{
+    /* background-color: chocolate; */
+}
+
+li{
+    /* list-style: none; */
+}
+
+a{
+    text-decoration: none;
+    /* color: black; */
+}
+
+/* header */
+
+nav{
+    /* color: black; */
+    /* background-color: khaki; */
+    /* height: 5vh; */
+}
+header{
+    /* height: 5vh; */
+    /* background-color: aqua; */
+}
+
+nav.mainNav{
+    padding: 30px 0;
+}
+ul a{
+    /* color: black; */
+    text-decoration: none;
+}
+.btn{
+    width: 120px;
+    background-color: orange;
+    border: 1px solid orange;
+    /* padding: 5px 25px; */
+    border-radius: 25px;
+    color: white;
+    /* text-align: center; */
+}
+header li a{
+    color: black;
+}
+
+
+/* sontent bubbles */
+
+
+section{
+    /* display: flex;
+    justify-content: center; */
+    height: 40vh;
+    margin-top: 7vh;
+    /* background-color: azure; */
+}
+section .col{
+    /* background-color: beige; */
+    height: 50vh;
+    object-fit: cover;
+    align-items: stretch;
+}
+.content{
+    /* background-color: khaki; */
+    /* width: 35vh; */
+    /* height: 25vh; */
+}
+.thumbnail {
+    /* background-color: aqua; */
+    border-radius: 5%;
+    align-self: center;
+    height: 40vh;
+    width: 40vh;
+}
+.odd img{
+    align-self: flex-end;
+}
+.even img{
+    align-self: flex-start;
+}
+
+
+/* blog area */
+
+.blog{
+    margin-top: 100px;
+    /* padding-top: 50px; */
+    /* min-height: 30vh; */
+    height: 100%;
+    background-color: rgb(223, 233, 244);
+}
+
+.card{
+    /* height: 60vh; */
+    border-radius: 5%;
+    object-fit: cover;
+    /* background-color: chocolate; */
+}
+.card .thumbnail{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 100%;
+    width: 100%;
+}
+.card-body{
+    /* height: 50% !important; */
+}
+.blog h2{
+    /* margin: 60px 0; */
+}
+
+
+/* footer */
+
+footer{
+    position: relative;
+    color: white;
+    height: 31vh;
+    background-color: rgb(20, 49, 82);
+}
+footer .container .mainRow{
+    padding: 6.2vh 0px;
+    /* background-color: cyan; */
+    align-self: center;
+}
+.topRow{
+    /* background-color: cyan; */
+    height: 15vh;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: black;
+}
+footer ul li a{
+    color: white;
+}
+fieldset{
+    height: 8vh;
+    /* background-color: blue; */
+}
+input{
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+}
